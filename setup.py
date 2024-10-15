@@ -12,7 +12,7 @@ setup(
     author = "Ali Fattaholmanan",
     author_email = "alii.fattah@gmail.com",
     name = 'fattaholmanan-plotext',
-    version='0.0.1',
+    version='0.0.2',
     description = 'plotext plots directly on terminal',
     long_description = README,
     long_description_content_type = "text/markdown",  
