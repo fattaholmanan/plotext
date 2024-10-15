@@ -9,15 +9,15 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    author = "Savino Piccolomo",
-    author_email = "piccolomo@gmail.com",
-    name = 'plotext',
-    version='5.3.2',
+    author = "Ali Fattaholmanan",
+    author_email = "alii.fattah@gmail.com",
+    name = 'fattaholmanan-plotext',
+    version='0.0.1',
     description = 'plotext plots directly on terminal',
     long_description = README,
     long_description_content_type = "text/markdown",  
     license = "MIT",
-    url = 'https://github.com/piccolomo/plotext',
+    url = 'https://github.com/fattaholmanan/plotext',
     packages = find_packages(),
     python_requires = ">=3.5",
     include_package_data = True,
