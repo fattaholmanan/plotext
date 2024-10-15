@@ -741,7 +741,7 @@ def single_bar(x, y, ylabel, marker, colors):
     xs = colorize(str(x), 'gray+', 'bold')
     bar = [marker * el for el in y]
     bar = [apply_ansi(bar[i], colors[i % lc], 1) for i in range(l)]
-    ylabel = colorize(f'{ylabel:.2f}', 'gray+', 'bold')
+    ylabel = colorize(f'{ylabel:.0f}', 'gray+', 'bold')
     bar = xs + space + ''.join(bar) + space + ylabel
     return bar
 
